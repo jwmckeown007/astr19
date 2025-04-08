@@ -8,8 +8,8 @@ class Platypus:
 
 	def characteristics(self):
 		print("Platypus Physical Characteristics:")
-		print(f"Arm Length: {self.arm_length}")
-		print(f"Leg Length: {self.leg_length}")
+		print(f"Arm Length: {self.arm_length} inches")
+		print(f"Leg Length: {self.leg_length} inches")
 		print(f"Number of Eyes: {self.num_eyes}")
 		print(f"Has a Tail? {'Yes' if self.has_tail else 'No'}")
 		print(f"Is Furry? {'Yes' if self.is_furry else 'No'}")
