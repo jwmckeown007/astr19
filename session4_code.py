@@ -11,8 +11,8 @@ class Platypus:
 		print(f"Arm Length: {self.arm_length}")
 		print(f"Leg Length: {self.leg_length}")
 		print(f"Number of Eyes: {self.num_eyes}")
-		print(f"Has a Tail? {'Yes' if self.has_tail == True else 'No'}")
-		print(f"Is Furry? {'Yes' if self.is_furry == True else 'No'}")
+		print(f"Has a Tail? {'Yes' if self.has_tail else 'No'}")
+		print(f"Is Furry? {'Yes' if self.is_furry else 'No'}")
 
 
 Perry = Platypus(4.0, 4.2, 2, True, True)
