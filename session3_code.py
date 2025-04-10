@@ -8,4 +8,5 @@ def main():
 	if f(x) > 27:
 		print("YAY!")
 
-main()
+if __name__ == "__main__":
+	main()
