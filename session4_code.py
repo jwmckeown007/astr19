@@ -14,6 +14,6 @@ class Platypus:
 		print(f"Has a Tail? {'Yes' if self.has_tail else 'No'}")
 		print(f"Is Furry? {'Yes' if self.is_furry else 'No'}")
 
-
-Perry = Platypus(4.0, 4.2, 2, True, True)
-Perry.characteristics()
+if __name__ == "__main__":
+	Perry = Platypus(4.0, 4.2, 2, True, True)
+	Perry.characteristics()
