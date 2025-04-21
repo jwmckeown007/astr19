@@ -4,8 +4,9 @@ def f(x):
 
 def main():
 	x = 9
-	print(f(x))
-	if f(x) > 27:
+	output = f(x)
+	print(output)
+	if output > 27:
 		print("YAY!")
 
 if __name__ == "__main__":
